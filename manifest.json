@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Accept All Invitations",
+  "version": "1.0",
+  "description": "Accept all pending LinkedIn connection invitations with one click.",
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/mynetwork/invitation-manager/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
