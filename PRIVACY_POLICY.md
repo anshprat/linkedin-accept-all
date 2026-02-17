@@ -73,15 +73,8 @@ We may update this privacy policy from time to time. Any changes will be reflect
 ## Contact Information
 
 If you have any questions or concerns about this privacy policy, please open an issue on our GitHub repository:
-https://github.com/anshprat/chrome-extensions
+https://github.com/anshprat/linkedin-accept-all/issues
 
-## Compliance
-
-This extension complies with:
-- Chrome Web Store Developer Program Policies
-- General Data Protection Regulation (GDPR)
-- California Consumer Privacy Act (CCPA)
-- Other applicable privacy regulations
 
 ## Your Rights
 
