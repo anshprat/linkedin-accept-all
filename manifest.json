@@ -3,14 +3,14 @@
   "name": "LinkedIn Accept All Invitations",
   "version": "1.0",
   "description": "Accept all pending LinkedIn connection invitations with one click.",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "storage"],
   "icons": {
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "48": "store/icon48.png",
+    "128": "store/icon128.png"
   },
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icon48.png"
+    "default_icon": "store/icon48.png"
   },
   "content_scripts": [
     {

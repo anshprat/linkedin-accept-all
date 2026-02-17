@@ -56,3 +56,70 @@ button {
 .hidden {
   display: none;
 }
+
+#statsSection {
+  margin-top: 16px;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 12px;
+}
+
+#statsSection h2 {
+  font-size: 13px;
+  color: #666;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.stat-row span:last-child {
+  font-weight: 600;
+  color: #0a66c2;
+}
+
+#recentLog {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#recentLog li {
+  padding: 4px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#recentLog li .log-name {
+  color: #333;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+#recentLog li a.log-name {
+  color: #0a66c2;
+  cursor: pointer;
+}
+
+#recentLog li a.log-name:hover {
+  text-decoration: underline;
+}
+
+#recentLog li .log-time {
+  color: #999;
+  white-space: nowrap;
+  font-size: 12px;
+}
