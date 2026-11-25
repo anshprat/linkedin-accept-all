@@ -4,7 +4,7 @@
 
 ## Overview
 
-LinkedIn Accept All Invitations is a Chrome extension that automates accepting pending LinkedIn connection invitations. This privacy policy explains our data practices and commitment to user privacy.
+LinkedIn Accept All Invitations is a Chrome and Firefox extension that automates accepting pending LinkedIn connection invitations. This privacy policy explains our data practices and commitment to user privacy.
 
 ## Data Collection and Usage
 
